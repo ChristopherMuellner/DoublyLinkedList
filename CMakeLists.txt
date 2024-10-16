@@ -3,4 +3,17 @@ project(DoublyLinkedList C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(DoublyLinkedList main.c)
+add_executable(DoublyLinkedList
+        src/main.c
+        src/readFromFile.c
+        src/printDescending.c
+        src/deleteByLastName.c
+        src/searchByModel.c
+        src/searchByCO.c
+        src/writeToFile.c
+        src/printAscending.c
+        src/insertSortedByLastName.c
+        src/deleteByPowertrain.c
+
+        include/main.h
+)
