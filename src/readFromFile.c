@@ -1,7 +1,7 @@
-#include "../include/main.h"
+#include "../include/header.h"
 
 
-void readFromFile()
+Registration* readFromFile(const char* filename)
 {
 
 }

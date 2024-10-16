@@ -1,7 +1,28 @@
-#include "../include/main.h"
+#include "../include/header.h"
 
 
-void searchByModel()
+Registration* searchByModel(Registration* head)
 {
 
+    const char* model = handleCharInput(25);
+
+    Registration* current = head;
+
+    while (current != NULL)
+    {
+        if (strcmp(current->model, model) == 0)
+        {
+            printf("\n\rNachname: %s\n", current->lastname);
+            printf("Model: %s\n", current->model);
+            printf("CO: %.2f\n", current->CO);
+            printf("Antriebsart: %s\n", current->powertrain);
+            printf("Hubraum: %d\n", current->engineCapacity);
+        }
+
+        current = current->next;
+    }
+
+    free(model);
+
+    return head;
 }

@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-#include "../include/main.h";
+#include "../include/header.h";
 
 
 void printMenu(void);
@@ -13,64 +11,53 @@ int main(void)
     do
     {
         printMenu();
+        handleNumberInput(&option); //check if input is a number
 
-        printf(">> Option: ");
-
-        //check if input is a number
-        if (scanf("%d", &option) != 1)
+        switch (option)
         {
-            printf("\r\nUngueltige Eingabe. Bitte geben Sie eine Zahl ein.\n");
-            while (getchar() != '\n'); //clear puffer (reject chars until \n)
-        }
-
-        else
-        {
-            switch (option)
-            {
-                case 0:  // Exit program
-                    //free();
+            case 0:  // Exit program
                 return EXIT_SUCCESS;
 
-                case 1:  // Add students
-                    insertSortedByLastName();
+            case 1:  // Add students
+                insertSortedByLastName();
                 break;
 
-                case 2:  // Print student array
-                    printAscending();
+            case 2:  // Print student array
+                printAscending();
                 break;
 
-                case 3:  // Read students from a file
-                    printDescending();
+            case 3:  // Read students from a file
+                printDescending();
                 break;
 
-                case 4:  // Write students to a file
-                    readFromFile();
+            case 4:  // Write students to a file
+                readFromFile();
                 break;
 
-                case 5:
-                    writeToFile();
+            case 5:
+                writeToFile(handleCharInput(260));
                 break;
 
-                case 6:
-                    searchByModel();
+            case 6:
+                searchByModel();
                 break;
 
-                case 7:
-                    searchByCO();
+            case 7:
+                searchByCO();
                 break;
 
-                case 8:
-                    deleteByLastName();
+            case 8:
+                deleteByLastName();
                 break;
 
-                case 9:
-                    deleteByPowertrain();
+            case 9:
+                deleteByPowertrain();
                 break;
 
-                default:  // Invalid option
-                    printf("\n\rUnerwartete Option.\n");
+            default:  // Invalid option
+                printf("\n\rUnerwartete Option.\n");
                 break;
-            }
-        }   // Infinite loop until user exits
-    } while(true);
+        }
+
+    } while(true); // Infinite loop until user exits
 }

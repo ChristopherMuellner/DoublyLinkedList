@@ -3,6 +3,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
 
 typedef struct Registration
 {
@@ -26,5 +28,10 @@ void searchByModel();
 void searchByCO();
 void deleteByLastName();
 void deleteByPowertrain();
+
+//utilities
+const char* handleCharInput(const size_t length);
+void handleNumberInput(float* input);
+void printMenu(void);
 
 #endif // MAIN_H

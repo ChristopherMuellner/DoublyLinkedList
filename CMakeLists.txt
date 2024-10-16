@@ -15,5 +15,6 @@ add_executable(DoublyLinkedList
         src/insertSortedByLastName.c
         src/deleteByPowertrain.c
 
-        include/main.h
+        include/header.h
+        src/utilities.c
 )

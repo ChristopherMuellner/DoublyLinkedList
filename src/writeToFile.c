@@ -1,4 +1,4 @@
-#include "../include/main.h"
+#include "../include/header.h"
 
 void writeToFile(const char* filename, const Registration* )
 {
