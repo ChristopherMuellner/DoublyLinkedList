@@ -7,9 +7,6 @@
 
 
 #define MAX_FILENAME_LENGTH 260
-#define MAX_LASTNAME_LENGTH 50
-#define MAX_MODEL_LENGTH 50
-#define MAX_POWER_TRAIN_LENGTH 50
 
 
 typedef struct Registration
@@ -39,5 +36,6 @@ void deleteByPowertrain();
 const char* handleCharInput(size_t length);
 float handleNumberInput(void);
 void printMenu(void);
+bool checkIfPtrIsNull(const void* ptr);
 
 #endif // MAIN_H

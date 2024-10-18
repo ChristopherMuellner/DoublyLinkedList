@@ -20,28 +20,31 @@ void printMenu()
 }
 
 
-const char* handleCharInput(size_t length)
+const char* handleCharInput(size_t MAX_LENGTH)
 {
-    char* input = (char*)malloc(length * sizeof(char));
+    size_t size = 10;
+    size_t len = 0;
 
-    if (input == NULL)
+    int character;
+
+
+    char* input = (char*)malloc(size * sizeof(char));
+
+    checkIfPtrIsNull(input);
+
+    while ((character = getchar()) != '\n' && character != EOF)
     {
-        printf("Memory allocation failed\n");
-        return NULL;
-    }
+        input[len++] = (char)character;
 
-    do
-    {
-        printf("\n\rFilename (max %llu): ", length);
-        scanf("%s", input);
-
-        if (strlen(input) > length)
+        // Wenn der aktuelle Speicher voll ist, Speichergröße verdoppeln
+        if (len >= size)
         {
-            printf("\n\rEingabe ist laenger als %llu Zeichen.", length);
-            while (getchar() != '\n'); // Clear input buffer
-        }
+            size *= 2;
+            input = (char *)realloc(input, size * sizeof(char));
 
-    } while (strlen(input) > length);
+            checkIfPtrIsNull(input);
+        }
+    }
 
     return input;
 }
@@ -65,4 +68,16 @@ float handleNumberInput()
         }
 
     } while (true); // Infinite loop until user enters a number
+}
+
+
+bool checkIfPtrIsNull(const void* ptr)
+{
+    if (ptr == NULL)
+    {
+        printf("\n\rERROR: Speicher konnte nicht allokiert werden.\n");
+        exit(EXIT_FAILURE);
+    }
+
+    return false;
 }
