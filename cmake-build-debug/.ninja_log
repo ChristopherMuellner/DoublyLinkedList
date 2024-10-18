@@ -1,12 +1,14 @@
 # ninja log v6
-32	284	7507655900076246	CMakeFiles/DoublyLinkedList.dir/src/readFromFile.c.obj	56bb6a1aaf72b622
 148	361	7507655901226577	CMakeFiles/DoublyLinkedList.dir/src/searchByCO.c.obj	ee612f9b990c8d71
-69	292	7507655900436780	CMakeFiles/DoublyLinkedList.dir/src/printDescending.c.obj	ec43e7be94d69ec9
-198	394	7507655901733695	CMakeFiles/DoublyLinkedList.dir/src/printAscending.c.obj	ab6c8f76de3b7475
-92	307	7507655900668194	CMakeFiles/DoublyLinkedList.dir/src/deleteByLastName.c.obj	14617eff4e4393ee
+32	284	7507655900076246	CMakeFiles/DoublyLinkedList.dir/src/readFromFile.c.obj	56bb6a1aaf72b622
+347	610	7509779114604308	CMakeFiles/DoublyLinkedList.dir/src/printAscending.c.obj	ab6c8f76de3b7475
+102	559	7509779112159857	CMakeFiles/DoublyLinkedList.dir/src/printDescending.c.obj	ec43e7be94d69ec9
+140	562	7509779112540025	CMakeFiles/DoublyLinkedList.dir/src/deleteByLastName.c.obj	14617eff4e4393ee
 116	328	7507655900912491	CMakeFiles/DoublyLinkedList.dir/src/searchByModel.c.obj	eba06d2a4e883ec3
-5	359	7507655899805093	CMakeFiles/DoublyLinkedList.dir/src/main.c.obj	9dc6200c1dd0dc15
+12	713	7509779111265369	CMakeFiles/DoublyLinkedList.dir/src/main.c.obj	9dc6200c1dd0dc15
 174	398	7507655901486651	CMakeFiles/DoublyLinkedList.dir/src/writeToFile.c.obj	ae20dd7afb841431
-223	423	7507655901976140	CMakeFiles/DoublyLinkedList.dir/src/insertSortedByLastName.c.obj	b884cf9609b0a177
-255	446	7507655902294958	CMakeFiles/DoublyLinkedList.dir/src/deleteByPowertrain.c.obj	1e1587afdd3156af
+402	637	7509779115166581	CMakeFiles/DoublyLinkedList.dir/src/insertSortedByLastName.c.obj	b884cf9609b0a177
+442	715	7509779115571520	CMakeFiles/DoublyLinkedList.dir/src/deleteByPowertrain.c.obj	1e1587afdd3156af
 446	739	7507655904212750	DoublyLinkedList.exe	60f74d0f51de083b
+5	551	7509779191319793	build.ninja	4e0d2306a273f433
+507	783	7509779116222879	CMakeFiles/DoublyLinkedList.dir/src/utilities.c.obj	1a3dab47a5173105

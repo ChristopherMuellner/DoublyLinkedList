@@ -11,7 +11,7 @@ int main(void)
     do
     {
         printMenu();
-        handleNumberInput(&option); //check if input is a number
+        option = handleNumberInput(); //check if input is a number
 
         switch (option)
         {
@@ -35,7 +35,7 @@ int main(void)
                 break;
 
             case 5:
-                writeToFile(handleCharInput(260));
+                writeToFile(handleCharInput(MAX_FILENAME_LENGTH));
                 break;
 
             case 6:

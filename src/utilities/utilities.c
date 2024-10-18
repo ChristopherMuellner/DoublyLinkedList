@@ -1,6 +1,6 @@
 #include <string.h>
 
-#include "../include/header.h"
+#include "../../include/header.h"
 
 
 void printMenu()
@@ -20,7 +20,7 @@ void printMenu()
 }
 
 
-const char* handleCharInput(const size_t length)
+const char* handleCharInput(size_t length)
 {
     char* input = (char*)malloc(length * sizeof(char));
 
@@ -47,8 +47,10 @@ const char* handleCharInput(const size_t length)
 }
 
 
-void handleNumberInput(float* input)
+float handleNumberInput()
 {
+    float input = 0;
+
     do
     {
         if (scanf("%d", &input) != 1)
@@ -59,7 +61,7 @@ void handleNumberInput(float* input)
 
         else
         {
-            break;
+            return input;
         }
 
     } while (true); // Infinite loop until user enters a number

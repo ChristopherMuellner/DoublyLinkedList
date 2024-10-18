@@ -5,16 +5,14 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(DoublyLinkedList
         src/main.c
-        src/readFromFile.c
-        src/printDescending.c
-        src/deleteByLastName.c
-        src/searchByModel.c
-        src/searchByCO.c
-        src/writeToFile.c
-        src/printAscending.c
-        src/insertSortedByLastName.c
-        src/deleteByPowertrain.c
-
-        include/header.h
-        src/utilities.c
+        src/functions/readFromFile.c
+        src/functions/printDescending.c
+        src/functions/deleteByLastName.c
+        src/functions/searchByModel.c
+        src/functions/searchByCO.c
+        src/functions/writeToFile.c
+        src/functions/printAscending.c
+        src/functions/insertSortedByLastName.c
+        src/functions/deleteByPowertrain.c
+        src/utilities/utilities.c
 )

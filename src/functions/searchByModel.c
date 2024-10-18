@@ -1,10 +1,9 @@
-#include "../include/header.h"
+#include "./../../include/header.h"
 
 
 Registration* searchByModel(Registration* head)
 {
-
-    const char* model = handleCharInput(25);
+    const char* model = handleCharInput(MAX_MODEL_LENGTH);
 
     Registration* current = head;
 
@@ -15,7 +14,7 @@ Registration* searchByModel(Registration* head)
             printf("\n\rNachname: %s\n", current->lastname);
             printf("Model: %s\n", current->model);
             printf("CO: %.2f\n", current->CO);
-            printf("Antriebsart: %s\n", current->powertrain);
+            printf("Antriebsart: %s\n", current->powerTrain);
             printf("Hubraum: %d\n", current->engineCapacity);
         }
 

@@ -1,12 +1,8 @@
-#include "../include/header.h"
+#include "./../../include/header.h"
 
 
-Registration* searchByCO(Registration* head)
+Registration* searchByCO(Registration* head, float CO)
 {
-    float CO = 0;
-
-    handleNumberInput(&CO);
-
     Registration* current = head;
 
     while (current != NULL)
@@ -16,7 +12,7 @@ Registration* searchByCO(Registration* head)
             printf("\n\rNachname: %s\n", current->lastname);
             printf("Model: %s\n", current->model);
             printf("CO: %.2f\n", current->CO);
-            printf("Antriebsart: %s\n", current->powertrain);
+            printf("Antriebsart: %s\n", current->powerTrain);
             printf("Hubraum: %d\n", current->engineCapacity);
         }
 

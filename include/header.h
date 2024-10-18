@@ -6,12 +6,18 @@
 #include <string.h>
 
 
+#define MAX_FILENAME_LENGTH 260
+#define MAX_LASTNAME_LENGTH 50
+#define MAX_MODEL_LENGTH 50
+#define MAX_POWER_TRAIN_LENGTH 50
+
+
 typedef struct Registration
 {
     char* lastname;
     char* model;
     float CO;
-    char* powertrain;
+    char* powerTrain;
     int engineCapacity;
 
     struct Registration* next;
@@ -30,8 +36,8 @@ void deleteByLastName();
 void deleteByPowertrain();
 
 //utilities
-const char* handleCharInput(const size_t length);
-void handleNumberInput(float* input);
+const char* handleCharInput(size_t length);
+float handleNumberInput(void);
 void printMenu(void);
 
 #endif // MAIN_H
