@@ -32,10 +32,11 @@ void searchByCO();
 void deleteByLastName();
 void deleteByPowertrain();
 
-//utilities
-const char* handleCharInput(size_t length);
+/*------------------UTILITIES---------------*/
+const char* handleCharInput(void);
 float handleNumberInput(void);
 void printMenu(void);
 bool checkIfPtrIsNull(const void* ptr);
+bool containsAllChars(const char* str, const char* chars);
 
 #endif // MAIN_H

@@ -3,7 +3,7 @@
 
 Registration* searchByModel(Registration* head)
 {
-    const char* model = handleCharInput(MAX_MODEL_LENGTH);
+    const char* model = handleCharInput();
 
     Registration* current = head;
 

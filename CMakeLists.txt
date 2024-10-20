@@ -14,5 +14,6 @@ add_executable(DoublyLinkedList
         src/functions/printAscending.c
         src/functions/insertSortedByLastName.c
         src/functions/deleteByPowertrain.c
-        src/utilities/utilities.c
+        src/utilities/functions.c
+        src/utilities/file-service.c
 )

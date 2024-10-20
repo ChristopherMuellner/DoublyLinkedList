@@ -20,13 +20,14 @@ void printMenu()
 }
 
 
-const char* handleCharInput(size_t MAX_LENGTH)
+const char* handleCharInput()
 {
     size_t size = 10;
     size_t len = 0;
 
     int character;
 
+    const char* fileEnd = ".txt";
 
     char* input = (char*)malloc(size * sizeof(char));
 
@@ -43,6 +44,12 @@ const char* handleCharInput(size_t MAX_LENGTH)
             input = (char *)realloc(input, size * sizeof(char));
 
             checkIfPtrIsNull(input);
+        }
+
+        if (containsAllChars(input, fileEnd) && len > MAX_FILENAME_LENGTH)
+        {
+            printf("\n\rDateiname zu lang. Bitte geben Sie einen gueltigen Dateinamen ein.\n");
+            free(input);
         }
     }
 
@@ -80,4 +87,18 @@ bool checkIfPtrIsNull(const void* ptr)
     }
 
     return false;
+}
+
+
+bool containsAllChars(const char* str, const char* chars)
+{
+    for (size_t i = 0; i < strlen(chars); i++)
+    {
+        if (strchr(str, chars[i]) == NULL)
+        {
+            return false;
+        }
+    }
+
+    return true;
 }

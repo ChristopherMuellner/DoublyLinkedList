@@ -7,6 +7,7 @@ void printMenu(void);
 int main(void)
 {
     int option = 0;  // Variable for menu option
+    Registration* registrations = NULL;  // Pointer to the first element of the list
 
     do
     {
@@ -35,7 +36,7 @@ int main(void)
                 break;
 
             case 5:
-                writeToFile(handleCharInput(MAX_FILENAME_LENGTH));
+                writeToFile(handleCharInput());
                 break;
 
             case 6:

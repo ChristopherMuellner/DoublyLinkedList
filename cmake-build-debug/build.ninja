@@ -55,65 +55,71 @@ build CMakeFiles/DoublyLinkedList.dir/src/main.c.obj: C_COMPILER__DoublyLinkedLi
   OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
   OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src
 
-build CMakeFiles/DoublyLinkedList.dir/src/readFromFile.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/readFromFile.c || cmake_object_order_depends_target_DoublyLinkedList
-  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\readFromFile.c.obj.d
+build CMakeFiles/DoublyLinkedList.dir/src/functions/readFromFile.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/functions/readFromFile.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\functions\readFromFile.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src\functions
 
-build CMakeFiles/DoublyLinkedList.dir/src/printDescending.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/printDescending.c || cmake_object_order_depends_target_DoublyLinkedList
-  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\printDescending.c.obj.d
+build CMakeFiles/DoublyLinkedList.dir/src/functions/printDescending.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/functions/printDescending.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\functions\printDescending.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src\functions
 
-build CMakeFiles/DoublyLinkedList.dir/src/deleteByLastName.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/deleteByLastName.c || cmake_object_order_depends_target_DoublyLinkedList
-  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\deleteByLastName.c.obj.d
+build CMakeFiles/DoublyLinkedList.dir/src/functions/deleteByLastName.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/functions/deleteByLastName.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\functions\deleteByLastName.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src\functions
 
-build CMakeFiles/DoublyLinkedList.dir/src/searchByModel.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/searchByModel.c || cmake_object_order_depends_target_DoublyLinkedList
-  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\searchByModel.c.obj.d
+build CMakeFiles/DoublyLinkedList.dir/src/functions/searchByModel.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/functions/searchByModel.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\functions\searchByModel.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src\functions
 
-build CMakeFiles/DoublyLinkedList.dir/src/searchByCO.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/searchByCO.c || cmake_object_order_depends_target_DoublyLinkedList
-  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\searchByCO.c.obj.d
+build CMakeFiles/DoublyLinkedList.dir/src/functions/searchByCO.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/functions/searchByCO.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\functions\searchByCO.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src\functions
 
-build CMakeFiles/DoublyLinkedList.dir/src/writeToFile.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/writeToFile.c || cmake_object_order_depends_target_DoublyLinkedList
-  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\writeToFile.c.obj.d
+build CMakeFiles/DoublyLinkedList.dir/src/functions/writeToFile.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/functions/writeToFile.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\functions\writeToFile.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src\functions
 
-build CMakeFiles/DoublyLinkedList.dir/src/printAscending.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/printAscending.c || cmake_object_order_depends_target_DoublyLinkedList
-  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\printAscending.c.obj.d
+build CMakeFiles/DoublyLinkedList.dir/src/functions/printAscending.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/functions/printAscending.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\functions\printAscending.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src\functions
 
-build CMakeFiles/DoublyLinkedList.dir/src/insertSortedByLastName.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/insertSortedByLastName.c || cmake_object_order_depends_target_DoublyLinkedList
-  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\insertSortedByLastName.c.obj.d
+build CMakeFiles/DoublyLinkedList.dir/src/functions/insertSortedByLastName.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/functions/insertSortedByLastName.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\functions\insertSortedByLastName.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src\functions
 
-build CMakeFiles/DoublyLinkedList.dir/src/deleteByPowertrain.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/deleteByPowertrain.c || cmake_object_order_depends_target_DoublyLinkedList
-  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\deleteByPowertrain.c.obj.d
+build CMakeFiles/DoublyLinkedList.dir/src/functions/deleteByPowertrain.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/functions/deleteByPowertrain.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\functions\deleteByPowertrain.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src\functions
 
-build CMakeFiles/DoublyLinkedList.dir/src/utilities.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/utilities.c || cmake_object_order_depends_target_DoublyLinkedList
-  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\utilities.c.obj.d
+build CMakeFiles/DoublyLinkedList.dir/src/utilities/utilities.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/utilities/utilities.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\utilities\utilities.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src\utilities
+
+build CMakeFiles/DoublyLinkedList.dir/src/utilities/file-service.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/chris/Projects/Software/DoublyLinkedList/src/utilities/file-service.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\src\utilities\file-service.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\src\utilities
 
 
 # =============================================================================
@@ -123,7 +129,7 @@ build CMakeFiles/DoublyLinkedList.dir/src/utilities.c.obj: C_COMPILER__DoublyLin
 #############################################
 # Link the executable DoublyLinkedList.exe
 
-build DoublyLinkedList.exe: C_EXECUTABLE_LINKER__DoublyLinkedList_Debug CMakeFiles/DoublyLinkedList.dir/src/main.c.obj CMakeFiles/DoublyLinkedList.dir/src/readFromFile.c.obj CMakeFiles/DoublyLinkedList.dir/src/printDescending.c.obj CMakeFiles/DoublyLinkedList.dir/src/deleteByLastName.c.obj CMakeFiles/DoublyLinkedList.dir/src/searchByModel.c.obj CMakeFiles/DoublyLinkedList.dir/src/searchByCO.c.obj CMakeFiles/DoublyLinkedList.dir/src/writeToFile.c.obj CMakeFiles/DoublyLinkedList.dir/src/printAscending.c.obj CMakeFiles/DoublyLinkedList.dir/src/insertSortedByLastName.c.obj CMakeFiles/DoublyLinkedList.dir/src/deleteByPowertrain.c.obj CMakeFiles/DoublyLinkedList.dir/src/utilities.c.obj
+build DoublyLinkedList.exe: C_EXECUTABLE_LINKER__DoublyLinkedList_Debug CMakeFiles/DoublyLinkedList.dir/src/main.c.obj CMakeFiles/DoublyLinkedList.dir/src/functions/readFromFile.c.obj CMakeFiles/DoublyLinkedList.dir/src/functions/printDescending.c.obj CMakeFiles/DoublyLinkedList.dir/src/functions/deleteByLastName.c.obj CMakeFiles/DoublyLinkedList.dir/src/functions/searchByModel.c.obj CMakeFiles/DoublyLinkedList.dir/src/functions/searchByCO.c.obj CMakeFiles/DoublyLinkedList.dir/src/functions/writeToFile.c.obj CMakeFiles/DoublyLinkedList.dir/src/functions/printAscending.c.obj CMakeFiles/DoublyLinkedList.dir/src/functions/insertSortedByLastName.c.obj CMakeFiles/DoublyLinkedList.dir/src/functions/deleteByPowertrain.c.obj CMakeFiles/DoublyLinkedList.dir/src/utilities/utilities.c.obj CMakeFiles/DoublyLinkedList.dir/src/utilities/file-service.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir

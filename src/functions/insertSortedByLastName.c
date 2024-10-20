@@ -1,6 +1,6 @@
 #include "./../../include/header.h"
 
-void insertSortedByLastName()
+void insertSortedByLastName(Registration* registrations, const Registration* newRegistration)
 {
 
 }
