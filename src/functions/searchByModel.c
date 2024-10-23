@@ -1,10 +1,8 @@
 #include "./../../include/header.h"
 
 
-Registration* searchByModel(Registration* head)
+Registration* searchByModel(Registration* head, const char* model)
 {
-    const char* model = handleCharInput();
-
     Registration* current = head;
 
     while (current != NULL)

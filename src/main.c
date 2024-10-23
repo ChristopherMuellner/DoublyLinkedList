@@ -20,39 +20,39 @@ int main(void)
                 return EXIT_SUCCESS;
 
             case 1:  // Add students
-                insertSortedByLastName();
+                insertSortedByLastName(registrations, handleRegistrationInput());
                 break;
 
             case 2:  // Print student array
-                printAscending();
+                printAscending(registrations);
                 break;
 
             case 3:  // Read students from a file
-                printDescending();
+                printDescending(registrations);
                 break;
 
             case 4:  // Write students to a file
-                readFromFile();
+                readFromFile(handleCharInput());
                 break;
 
             case 5:
-                writeToFile(handleCharInput());
+                writeToFile(registrations, handleCharInput());
                 break;
 
             case 6:
-                searchByModel();
+                searchByModel(registrations, handleCharInput());
                 break;
 
             case 7:
-                searchByCO();
+                searchByCO(registrations, handleNumberInput());
                 break;
 
             case 8:
-                deleteByLastName();
+                deleteByLastName(registrations, handleCharInput());
                 break;
 
             case 9:
-                deleteByPowertrain();
+                deleteByPowertrain(registrations, handleCharInput());
                 break;
 
             default:  // Invalid option

@@ -22,15 +22,15 @@ typedef struct Registration
 } Registration;
 
 
-void insertSortedByLastName();
-void printAscending();
-void printDescending();
-void readFromFile();
-void writeToFile(const char* filename);
-void searchByModel();
-void searchByCO();
-void deleteByLastName();
-void deleteByPowertrain();
+void insertSortedByLastName(Registration* registrations, const Registration* newRegistration);
+void printAscending(const Registration* registrations);
+void printDescending(const Registration* registrations);
+Registration* readFromFile(const char* filename);
+void writeToFile(const Registration* registration, const char* filename);
+Registration* searchByModel(Registration* head, const char* model);
+Registration* searchByCO(Registration* head, float CO);
+Registration* deleteByLastName(Registration* registrations, const char* lastname);
+void deleteByPowertrain(Registration* registrations, const char* powerTrain);
 
 /*------------------UTILITIES---------------*/
 const char* handleCharInput(void);
@@ -38,5 +38,6 @@ float handleNumberInput(void);
 void printMenu(void);
 bool checkIfPtrIsNull(const void* ptr);
 bool containsAllChars(const char* str, const char* chars);
+Registration* handleRegistrationInput();
 
 #endif // MAIN_H

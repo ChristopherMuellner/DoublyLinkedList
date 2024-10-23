@@ -102,3 +102,28 @@ bool containsAllChars(const char* str, const char* chars)
 
     return true;
 }
+
+
+Registration* handleRegistrationInput()
+{
+    Registration* registration = (Registration*)malloc(sizeof(Registration));
+
+    checkIfPtrIsNull(registration);
+
+    printf("Nachname: ");
+    registration->lastname = handleCharInput();
+
+    printf("Model: ");
+    registration->model = handleCharInput();
+
+    printf("CO: ");
+    registration->CO = handleNumberInput();
+
+    printf("Antriebsart: ");
+    registration->powerTrain = handleCharInput();
+
+    printf("Hubraum: ");
+    registration->engineCapacity = handleNumberInput();
+
+    return registration;
+}

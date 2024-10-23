@@ -13,6 +13,12 @@ Registration* readFromFile(const char* filename)
         exit(EXIT_FAILURE);
     }
 
+    if (scanf("%s", file) == EOF)
+    {
+        printf("Datei ist leer.\n");
+        exit(EXIT_FAILURE);
+    }
+
     do
     {
         Registration* registration = (Registration*)malloc(sizeof(Registration));
